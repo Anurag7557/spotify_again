@@ -1,0 +1,38 @@
+.genre{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.genrebox{
+    position: absolute;
+    margin-top: -3%;
+    background: linear-gradient(rgb(0, 0, 0,0.8),black,black);
+    width: 96%;
+    padding: 2%;
+}
+.namegenre{
+    width: 94%;
+    height: 12rem;
+    color: white;
+    text-align: left;
+    font-size: 500%;
+    padding-top: 10%;
+    font-weight: 600;
+    padding-left: 6%;
+}
+#page{
+    color: azure;
+    margin-top: 5%;
+}
+#btn{
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    border: 0px;
+}
+.genre-songs{
+    position: absolute;
+    top: 0%;
+    left: 8%;
+    width: 92%;
+}

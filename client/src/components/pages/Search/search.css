@@ -1,0 +1,74 @@
+.showgenre{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+.browse{
+    margin:2% 2% 0% 2%;
+    text-align: left;
+    font-size: 200%;
+    font-weight: 800;
+
+}
+.search{
+    text-align: left;
+    margin-left: 1%;
+    width: 30%;
+    height:2.5rem;
+    background-color: rgb(43, 42, 42);
+    margin-top: 2%;
+    border-radius: 1rem;
+    padding-left: 3%;
+    border: 0px;
+    color: azure;
+}
+#icon{
+    text-align: left;
+    position:absolute;
+    margin-left: 6.3%;
+    color: rgb(211, 211, 211);
+    margin-top: 2.6%;
+    font-size: 150%;
+}
+#search{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+.show{
+    background-color: rgb(0, 0, 0);
+    min-height: 50rem;
+    color: azure;
+    position: absolute;
+   top: 0%;
+    left: 8%;
+}
+#backicon{
+    font-size: 2.5rem;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+#searchbar{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-left: 2%;
+    background-color: rgb(43, 42, 42);
+    border-bottom: 1px solid rgb(82, 80, 80);
+    margin-top: 1%;
+    height: 2rem;
+    font-size: 1.2rem;
+    margin-right: 2%;
+}
+#song{
+    width: 47.5%;
+}
+#album{
+    width: 30%;
+}
+#time{
+    font-size: 1.5rem;
+    margin-top: .3rem;
+
+}

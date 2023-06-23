@@ -1,0 +1,58 @@
+#button{
+    font-size: 2rem;
+     cursor: pointer;
+     margin-left: 4rem;
+     
+ }
+ .music-card{
+     background-color: whitesmoke;
+     width: 20% ;
+     height: 40vh;
+     display: flex;
+     flex-direction: column;
+     background-color: rgb(31, 31, 31);
+     color: white;
+     margin-top: 2%;
+     border-radius: 5px;
+     margin-left: 4%;
+ }
+ .imagemusic{
+     width:  13rem;
+     height: 13rem;
+     margin: auto;
+     margin-top: 20px;
+     border-radius: 5px;
+     object-fit: cover;
+     box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
+ }
+ .music-card .name , .music-card .about{
+     margin-left: 1rem;
+     color: grey;
+ }
+ .music-card .name{
+     font-weight: 800;
+     color: white;
+ }
+ .play-button{
+     position: relative;
+     background-color: #1DB954;
+     padding: .7rem;
+     border-radius: 50%;
+     height: 60px;
+     width: 30px;
+     text-align: center;
+     left: 67%;
+     bottom: 32%;
+     box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
+   
+ }
+ #play-icon{
+     color: black;
+ }
+ 
+ .music-card:hover{
+     background-color: rgb(50, 50, 50);
+ }
+ .name{
+    margin-top: 5%;
+ }

@@ -1,0 +1,42 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-top: .5%;
+    margin-right: 2%;
+}
+.album{
+    width: 4rem;
+    height: 4rem;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.information{
+    margin-left: 1%;
+    text-align: left;
+    width: 42%;
+}
+.title{
+    font-weight: 700;
+}
+.card:hover{
+    background-color: rgb(60,60,60);
+}
+#heart{
+    font-size: 2rem;
+    margin-top: 20%;
+    margin-left: 1%;
+}
+#likeadd{
+    display: flex;
+    flex-direction: row;
+}
+.albumname{
+    width: 30%;
+    text-align: left;
+}
+.time{
+    width: 18%;    
+    text-align: left;
+
+}
